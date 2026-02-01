@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VARANASI — 7 April 2027</title>
+    <meta name="description" content="VARANASI (2027) — A cinematic countdown to 7 April 2027. Mythological power. Cosmic scale.">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta property="og:title" content="VARANASI — 7 April 2027">
+    <meta property="og:description" content="A cinematic countdown to the release of VARANASI. Mythological power. Cosmic scale.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="image 1.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VARANASI — 7 April 2027">
+    <meta name="twitter:description" content="A cinematic countdown to the release of VARANASI. Mythological power. Cosmic scale.">
+    <meta name="twitter:image" content="image 1.jpg">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90' fill='%23C9A961'>V</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader-content">
+            <div class="loader-logo">VARANASI</div>
+            <div class="loader-tagline">THE MYTHIC ARRIVAL</div>
+            <div class="loader-bar-container">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+        <div class="particle-container" id="particles"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">VARANASI</div>
+        <button class="nav-watch-btn" aria-label="Watch teaser">WATCH</button>
+    </nav>
+
+    <section id="hero" aria-label="Hero">
+        <div class="hero-background" id="hero-bg-image"></div>
+        <div class="hero-video-container" id="hero-video-container">
+            <iframe 
+                id="hero-video-player"
+                src="https://www.youtube.com/embed/jDGETw3YAHc?autoplay=1&mute=1&start=150&controls=0&showinfo=0&rel=0&loop=0&modestbranding=1&iv_load_policy=3&disablekb=1&playsinline=1&enablejsapi=1&vq=hd720"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <div class="hero-text-block">
+                <div class="subtitle">MYTHOLOGICAL POWER • COSMIC SCALE</div>
+                <h1 class="title">7 April 2027</h1>
+                <div class="countdown-label">COUNTDOWN TO THE MYTHIC ARRIVAL</div>
+            </div>
+            
+            <!-- Countdown Timer -->
+            <div id="countdown-container" class="countdown-container" aria-live="polite">
+                <div id="countdown" class="countdown" role="timer">
+                    <div class="time-unit">
+                        <span id="days" class="time-value">430</span>
+                        <span class="time-label">DAYS</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="hours" class="time-value">02</span>
+                        <span class="time-label">HOURS</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="minutes" class="time-value">41</span>
+                        <span class="time-label">MINUTES</span>
+                    </div>
+                    <div class="time-unit">
+                        <span id="seconds" class="time-value">36</span>
+                        <span class="time-label">SECONDS</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-actions">
+                <div class="countdown-active-badge">COUNTDOWN ACTIVE</div>
+                <button id="trailer-btn" class="btn btn-primary" aria-label="Watch teaser trailer">
+                    <span class="play-icon">▶</span>
+                    <span>WATCH TEASER</span>
+                </button>
+                <button id="reminder-btn" class="btn btn-secondary" aria-label="Add reminder">
+                    <span>ADD REMINDER</span>
+                </button>
+            </div>
+
+            <!-- Now Playing (Hidden until release) -->
+            <div id="now-playing" class="now-playing" style="display: none;" aria-live="polite">
+                <div class="now-playing-badge">NOW PLAYING</div>
+                <div class="now-playing-text">IN THEATERS WORLDWIDE</div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <span class="scroll-text">SCROLL</span>
+        </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story-section" aria-label="Story">
+        <div class="story-grid">
+            <div class="story-card">
+                <div class="story-image" style="background-image: url('image 3.jpg');"></div>
+                <div class="story-overlay"></div>
+                <div class="story-content">
+                    <h2 class="story-title">THE ETERNAL CITY</h2>
+                    <p class="story-text">Where ancient myths collide with cosmic destiny</p>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-image" style="background-image: url('image 4.jpg');"></div>
+                <div class="story-overlay"></div>
+                <div class="story-content">
+                    <h2 class="story-title">THE PROPHECY</h2>
+                    <p class="story-text">When Varanasi awakens, the cosmos trembles</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cast & Crew Section -->
+    <section class="cast-crew-section" aria-label="Cast and Crew">
+        <div class="cast-crew-container">
+            <h2 class="section-heading">CAST & CREW</h2>
+            
+            <!-- Cast -->
+            <div class="crew-group">
+                <h3 class="crew-category">Cast</h3>
+                <div class="crew-grid">
+                    <div class="crew-item">
+                        <div class="crew-role">Rudhra</div>
+                        <div class="crew-name">Mahesh Babu</div>
+                    </div>
+                    <div class="crew-item">
+                        <div class="crew-role">Mandakini</div>
+                        <div class="crew-name">Priyanka Chopra Jonas</div>
+                    </div>
+                    <div class="crew-item">
+                        <div class="crew-role">Kumbha</div>
+                        <div class="crew-name">Prithviraj Sukumaran</div>
+                    </div>
+                    <div class="crew-item">
+                        <div class="crew-name">Prakash Raj</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Director -->
+            <div class="crew-group">
+                <h3 class="crew-category">Director</h3>
+                <div class="crew-grid">
+                    <div class="crew-item">
+                        <div class="crew-name">S.S. Rajamouli</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Writers -->
+            <div class="crew-group">
+                <h3 class="crew-category">Writers</h3>
+                <div class="crew-grid">
+                    <div class="crew-item">
+                        <div class="crew-name">Vijayendra Prasad</div>
+                    </div>
+                    <div class="crew-item">
+                        <div class="crew-name">S.S. Rajamouli</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producers -->
+            <div class="crew-group">
+                <h3 class="crew-category">Producers</h3>
+                <div class="crew-grid">
+                    <div class="crew-item">
+                        <div class="crew-name">Narayana K.L.</div>
+                    </div>
+                    <div class="crew-item">
+                        <div class="crew-name">S.S. Karthikeya</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Composer -->
+            <div class="crew-group">
+                <h3 class="crew-category">Music</h3>
+                <div class="crew-grid">
+                    <div class="crew-item">
+                        <div class="crew-name">M.M. Keeravani</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <span>↑</span>
+    </button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">VARANASI</div>
+                <p class="footer-copyright">&copy; 2027 VARANASI. All Rights Reserved.</p>
+            </div>
+            <div class="footer-right">
+                <div class="footer-section">
+                    <h4 class="footer-heading">Follow</h4>
+                    <div class="social-links" aria-label="Social links">
+                        <a href="https://www.instagram.com/varanasimovie/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">Instagram</a>
+                        <a href="https://x.com/VaranasiMovie" target="_blank" rel="noopener" class="social-link" aria-label="Twitter">Twitter</a>
+                        <a href="https://www.youtube.com/@varanasimovieofficial" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">YouTube</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Developer</h4>
+                    <div class="social-links" aria-label="Developer links">
+                        <a href="https://www.instagram.com/urstrulylikhith.7/" target="_blank" rel="noopener" class="social-link" aria-label="Developer Instagram">@urstrulylikhith.7</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Trailer Modal -->
+    <div id="trailer-modal" class="modal" role="dialog" aria-modal="true" aria-label="Trailer">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button id="close-modal" class="close-btn" aria-label="Close trailer">&times;</button>
+            <div class="video-container">
+                <iframe id="trailer-video" 
+                        width="100%" 
+                        height="100%" 
+                        src="" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        title="VARANASI Teaser Trailer"
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- YouTube IFrame API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    
+    <!-- Cursor Glow Effect -->
+    <div class="cursor-glow" id="cursor-glow"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
