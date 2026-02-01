@@ -1221,7 +1221,7 @@ footer {
     }
     
     .title {
-        font-size: clamp(2rem, 10vw, 3rem);
+        font-size: clamp(2.5rem, 12vw, 4rem);
     }
     
     .countdown-label {
@@ -1303,7 +1303,7 @@ footer {
     }
     
     .title {
-        font-size: 2rem;
+        font-size: 2.8rem;
     }
     
     .countdown-label {
