@@ -1074,26 +1074,21 @@ footer {
         background-image: url('image 2.png');
     }
     
-    /* Video responsive for tablets/mobile */
+    /* Hide video on mobile - show only image */
     .hero-video-container {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        display: none !important;
     }
     
-    #hero-video-player {
-        width: 250%;
-        height: 250%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+    .hero-background {
+        opacity: 1 !important;
+    }
+    
+    .hero-background.hidden {
+        opacity: 1 !important;
     }
     
     .unmute-hint {
-        bottom: 80px;
-        padding: 0.75rem 1.5rem;
-        font-size: 0.8rem;
+        display: none;
     }
     
     .hero-content {
