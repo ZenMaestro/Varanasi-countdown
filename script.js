@@ -484,6 +484,23 @@ function initBackToTop() {
 }
 
 // ====================================
+// MOBILE NOTICE
+// ====================================
+function initMobileNotice() {
+    const notice = document.getElementById('mobile-notice');
+    const closeBtn = notice?.querySelector('.mobile-notice-close');
+    
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            notice.style.display = 'none';
+            // Adjust nav position
+            const nav = document.querySelector('.nav');
+            if (nav) nav.style.top = '0';
+        });
+    }
+}
+
+// ====================================
 // KEYBOARD SHORTCUTS
 // ====================================
 function initKeyboardShortcuts() {
@@ -523,4 +540,5 @@ document.addEventListener('DOMContentLoaded', () => {
     initKeyboardShortcuts();
     initCursorGlow();
     initParallax();
+    initMobileNotice();
 });
