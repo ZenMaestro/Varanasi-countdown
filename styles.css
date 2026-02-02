@@ -985,6 +985,14 @@ footer {
     margin-top: 0.5rem;
 }
 
+.footer-ad {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .footer-right {
     display: flex;
     gap: 4rem;
