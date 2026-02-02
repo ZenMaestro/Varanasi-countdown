@@ -978,6 +978,13 @@ footer {
     font-size: 0.85rem;
 }
 
+.disclaimer {
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+    opacity: 0.7;
+    margin-top: 0.5rem;
+}
+
 .footer-right {
     display: flex;
     gap: 4rem;
